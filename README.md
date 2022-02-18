@@ -3,6 +3,7 @@
 # House-Prices-Prediction-Model
 
 <!-- Add buttons here -->
+![GitHub All Releases](https://img.shields.io/github/downloads/aadedolapo/House-Prices-Prediction-Model/total): If you are not like me and your project gets a lot of downloads(*I envy you*) then you should have a badge that shows the number of downloads! This lets others know how **Awesome** your project is and is worth contributing to.
 
 <!-- Describe your project in brief -->
 
