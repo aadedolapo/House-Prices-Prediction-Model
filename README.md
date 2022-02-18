@@ -1,4 +1,4 @@
-![Banner](https://github.com/navendu-pottekkat/awesome-readme/blob/master/header.png)
+![Banner](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/header.jpg)
 
 # House-Prices-Prediction-Model
 
