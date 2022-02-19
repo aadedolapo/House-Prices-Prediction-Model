@@ -165,7 +165,7 @@ def  main():
         result = predict_price(city,bedrooms,bathrooms,toilets)
     st.success('The price is {}'. format(result))
     if st.button('About'):
-        st.text('Adebo Dolapo')
+        st.text('Model developed by Adebo Dolapo')
         
     
 if __name__=='__main__':
