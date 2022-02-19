@@ -16,7 +16,6 @@ Try it out by inputting the location where you want to check out house prices, n
 - [Demo-Preview](#demo-preview)
 - [Table of contents](#table-of-contents)
 - [Files Description](#Files-Description)
-- [Usage](#usage)
 - [Deployment and Application](#Deployment-and-Application)
 
 # Files Description
