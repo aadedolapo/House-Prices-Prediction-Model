@@ -153,7 +153,11 @@ def  main():
     bathrooms = st.selectbox('Number of Bathrooms',(1,2,3,4,5,6,7,8))
     toilets = st.selectbox('Number of Toilets',(1,2,3,4,5,6,7,8,9))
         
-    st.write('You selected:', city, bedrooms, bathrooms, toilets)
+    st.write('You selected:','\n' 
+             'Location:',city,'\n' 
+             '\n Bedroom:',bedrooms,'\n' 
+             '\n Bathroom:',bathrooms,'\n' 
+             '\n Toilet:',toilets)
     
     result = ""
     
