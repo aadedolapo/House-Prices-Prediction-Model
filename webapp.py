@@ -2,26 +2,12 @@ import numpy as np
 import pickle
 import pandas as pd
 import streamlit as st
-import os
 from sklearn.model_selection import train_test_split, cross_val_score, ShuffleSplit, GridSearchCV
-from sklearn.linear_model import LinearRegression, LogisticRegression
+from sklearn.linear_model import LinearRegression, Lasso
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
-
-
-os.chdir(r'C:\Users\USER\Downloads\House_Prices_Prediction')
-
-# Get current working directory
-os.getcwd()
-
 # load dataset
-prop = pd.read_csv('./Properties.csv')
-prop.head()
-
-prop.info()
-
-prop.describe()
+prop = pd.read_csv('Properties.csv')
 
 #create new features
 prop['estate_flag'] = prop['location'].apply(lambda x: len([c for c in str(x).lower().split() if "estate" in c]))
@@ -38,21 +24,6 @@ prop['miniflat_flag'] = prop['description'].apply(lambda x: len([c for c in str(
 prop['selfcontain_flag'] = prop['description'].apply(lambda x: len([c for c in str(x).lower().split() if "self" in c]))
 
 prop2 = prop.drop(['page', 'title', 'garage', 'description', 'location'], axis='columns')
-
-prop2.isna().sum()
-
-def unique_(data, cols):
-    for each in cols:
-        x = data[each].unique()
-        print("Unique values in", each, "column",x)
-
-col = ['bedrooms', 'bathrooms', 'toilets']
-
-unique_(prop2, col)
-
-### Removing Outliers
-
-prop.groupby('city')['price'].max().sort_values(ascending=False)
 
 ### These Prices are too high for rent. These are outliers
 
@@ -130,12 +101,16 @@ def find_best_model(X,y):
         })
         
     return pd.DataFrame(scores,columns=['model','best_score','best_params'])
+#find_best_model(X,y)
 
 rfr = RandomForestRegressor(criterion='mse',random_state=42)
+rfr.fit(X_train, y_train)
 
-#from PIL import image
 
-pickle_in = open('Lagos_properties_price_model.pickle', 'rb')
+with open('House_price_model.pickle','wb') as f:
+    pickle.dump(rfr, f)
+    
+pickle_in = open('House_price_model.pickle', 'rb')
 model = pickle.load(pickle_in)
 
 #def predict_price(city,bedrooms,bathrooms,toilets,garage):
@@ -154,7 +129,7 @@ def predict_price(city,bedrooms,bathrooms,toilets):
 
 
 def  main():
-    st.title('House Prices Prediction')
+    st.title('House Price Prediction')
 
 
 
@@ -162,7 +137,8 @@ def  main():
     <div style="background-color:#f63366;
         border-radius: 25px;
         padding:5px">
-    <h2 style="color:white;text-align:center;">Streamlit House Prices Prediciton ML APP</h2>
+    <h2 style="color:white;
+        text-align:center;">House Price Prediciton ML APP</h2>
     </div>
     """
     
