@@ -21,13 +21,13 @@ Try it out by inputting the location where you want to check out house prices, n
 - [Footer](#footer)
 
 # Files Description
-* Properties.csv: webscraped data 
-* header.jpg: image used for README
-* House_prices_model.pickle : trained models saved with pickle
+* [Properties.csv](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/Properties.csv): webscraped data 
+* [Header.jpg](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/header.jpg): image used for README
+* [House_prices_model.pickle](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/House_price_model.pickle) : trained models saved with pickle
 * [Webscraping(properties for rent).ipynb](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/Webscraping(properties%20for%20rent).ipynb) : notebook used for webscraping and data manipulation
 * [House prices prediction.ipynb](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/House%20prices%20prediction.ipynb) : notebook with feature engineering, model selection, testing and model evaluation
-* webapp.py : contains script to run app
-* requirements.txt : dependencies for streamlit application
+* [Webapp.py](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/webapp.py) : contains script to run app
+* [Requirements.txt](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/requirements.txt) : dependencies for streamlit application
 
 
 Email: kingsleyadebo@gmail.com
