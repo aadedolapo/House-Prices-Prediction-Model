@@ -15,10 +15,9 @@ Try it out by inputting the location where you want to check out house prices, n
 - [Project Title](#project-title)
 - [Demo-Preview](#demo-preview)
 - [Table of contents](#table-of-contents)
-- [Installation](#installation)
+- [Files Description](#Files-Description)
 - [Usage](#usage)
-- [Development](#development)
-- [Footer](#footer)
+- [Deployment and Application](#Deployment-and-Application)
 
 # Files Description
 * [Properties.csv](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/Properties.csv): webscraped data 
@@ -43,9 +42,9 @@ Try it out by inputting the location where you want to check out house prices, n
 # Deployment and Application
 After seeing the improvements from the Stacking model, I was more confident about deploying the model for actionable use.
 
-I planned on future improvements being the addition of the neural network model and then creating an application for the model, so as a next step I decided to make a working application to test out new reviews using streamlit. I have deployed the app using Heroku: https://hilton-hotel-app.herokuapp.com/.
+I planned on future improvements being the addition of the neural network model and then creating an application for the model, so as a next step I decided to make a working application to test out new reviews using streamlit. I have deployed the app using Streamlit: [House Price Predictor](https://share.streamlit.io/aadedolapo/house-prices-prediction-model/main/webapp.py).
 
-Using this model, we will learn more about our new and old customers, then we can improve Hilton Hotel's guest satisfaction, and as a result increase customer retention and bring in new travelers.
+Using this model, we will learn more about House Prices based on location, bedrooms, bathrooms and toilets.
  
 Email: kingsleyadebo@gmail.com
 
