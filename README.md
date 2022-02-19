@@ -24,12 +24,29 @@ Try it out by inputting the location where you want to check out house prices, n
 * [Properties.csv](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/Properties.csv): webscraped data 
 * [Header.jpg](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/header.jpg): image used for README
 * [House_prices_model.pickle](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/House_price_model.pickle) : trained models saved with pickle
-* [Webscraping(properties for rent).ipynb](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/Webscraping(properties%20for%20rent).ipynb) : notebook used for webscraping and data manipulation
+* [Webscraping(properties for rent).ipynb](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/Webscraping(properties%20for%20rent).ipynb) : notebook with webscraping and data manipulation
 * [House prices prediction.ipynb](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/House%20prices%20prediction.ipynb) : notebook with feature engineering, model selection, testing and model evaluation
 * [Webapp.py](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/webapp.py) : contains script to run the app on streamlit cloud
 * [Requirements.txt](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/requirements.txt) : dependencies for streamlit application
 
+# Tecnologies Used:
+* Python
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
+* Request
+* BeautifulSoup
+* Scikit-Learn
+* Streamlit
 
+# Deployment and Application
+After seeing the improvements from the Stacking model, I was more confident about deploying the model for actionable use.
+
+I planned on future improvements being the addition of the neural network model and then creating an application for the model, so as a next step I decided to make a working application to test out new reviews using streamlit. I have deployed the app using Heroku: https://hilton-hotel-app.herokuapp.com/.
+
+Using this model, we will learn more about our new and old customers, then we can improve Hilton Hotel's guest satisfaction, and as a result increase customer retention and bring in new travelers.
+ 
 Email: kingsleyadebo@gmail.com
 
 LinkedIn: www.linkedin.com/in/ahilan-srivishnumohan/
