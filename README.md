@@ -25,7 +25,7 @@ Try it out by inputting the location where you want to check out house prices, n
 * header.jpg: image used for README
 * House_prices_model.pickle : trained models saved with pickle
 * Webscraping(properties for rent).ipynb : notebook used for webscraping and data manipulation
-* House prices prediction.ipynb : notebook with feature engineering, model selection, testing and model evaluation
+* [House prices prediction.ipynb](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/House%20prices%20prediction.ipynb) : notebook with feature engineering, model selection, testing and model evaluation
 * webapp.py : contains script to run app
 * requirements.txt : dependencies for streamlit application
 
