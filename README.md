@@ -2,8 +2,8 @@
 
 # House-Prices-Prediction-Model
 
-<!-- Add buttons here -->
 ![GitHub All Releases](https://img.shields.io/github/downloads/aadedolapo/House-Prices-Prediction-Model/total):
+![Demo App](https://share.streamlit.io/aadedolapo/house-prices-prediction-model/main/webapp.py)
 
-<!-- Describe your project in brief -->
-This is a an end-to-end machine learning project. From webscraping to cleaning the data to building a Machine learning model and finally to deployment.
+Try it out by inputting the location where you want to check out house prices, number of bedrooms, bathrooms and toilets, and it will predict the House price.
+
