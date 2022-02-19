@@ -1,20 +1,15 @@
 ![Banner](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/header.jpg)
 
-# House-Prices-Prediction-Model
+# House-Price-Prediction-Model
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/aadedolapo/House-Prices-Prediction-Model/total):
 ![GitHub last commit](https://img.shields.io/github/last-commit/aadedolapo/House-Prices-Prediction-Model)
 
-# Demo Preview
-Here is a demo application of the House Price Predictor: [House Price Predictor](https://share.streamlit.io/aadedolapo/house-prices-prediction-model/main/webapp.py)
-
-Try it out by inputting the location where you want to check out house prices, number of bedrooms, bathrooms and toilets, and it will predict the House price.
-
 # Table of contents
-- [Project Title](#House-Prices-Prediction-Model)
-- [Demo-Preview](#demo-preview)
+- [Project Title](#House-Price-Prediction-Model)
 - [Table of contents](#table-of-contents)
 - [Files Description](#Files-Description)
+- [Technologies Used](Technologies-Used)
 - [Deployment and Application](#Deployment-and-Application)
 
 # Files Description
@@ -26,7 +21,7 @@ Try it out by inputting the location where you want to check out house prices, n
 * [Webapp.py](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/webapp.py) : contains script to run the app on streamlit cloud
 * [Requirements.txt](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/requirements.txt) : dependencies for streamlit application
 
-# Tecnologies Used:
+# Technologies Used:
 * Python
 * Pandas
 * Numpy
@@ -37,12 +32,14 @@ Try it out by inputting the location where you want to check out house prices, n
 * Scikit-Learn
 * Streamlit
 
+
 # Deployment and Application
 I have deployed the app using Streamlit: [House Price Predictor](https://share.streamlit.io/aadedolapo/house-prices-prediction-model/main/webapp.py).
 Using this model, we will learn more about House Prices based on location, bedrooms, bathrooms and toilets.
  
+
 Email: kingsleyadebo@gmail.com
 
-LinkedIn: www.linkedin.com/in/ahilan-srivishnumohan/
+LinkedIn: https://www.linkedin.com/in/dolapo-adebo-4a979687/
 
 Twitter: www.twitter.com/theadedolapo
