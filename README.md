@@ -8,6 +8,7 @@
 
 # Demo Preview
 Here is a demo application of the House Price Predictor: [House Price Predictor](https://share.streamlit.io/aadedolapo/house-prices-prediction-model/main/webapp.py)
+
 Try it out by inputting the location where you want to check out house prices, number of bedrooms, bathrooms and toilets, and it will predict the House price.
 
 # Table of contents
@@ -18,6 +19,16 @@ Try it out by inputting the location where you want to check out house prices, n
 - [Usage](#usage)
 - [Development](#development)
 - [Footer](#footer)
+
+# Files Description
+* Properties.csv: webscraped data 
+* header.jpg: image used for README
+* House_prices_model.pickle : trained models saved with pickle
+* Webscraping(properties for rent).ipynb : notebook used for webscraping and data manipulation
+* House prices prediction.ipynb : notebook with feature engineering, model selection, testing and model evaluation
+* webapp.py : contains script to run app
+* requirements.txt : dependencies for streamlit application
+
 
 Email: kingsleyadebo@gmail.com
 
