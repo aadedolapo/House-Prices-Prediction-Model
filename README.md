@@ -40,10 +40,7 @@ Try it out by inputting the location where you want to check out house prices, n
 * Streamlit
 
 # Deployment and Application
-After seeing the improvements from the Stacking model, I was more confident about deploying the model for actionable use.
-
-I planned on future improvements being the addition of the neural network model and then creating an application for the model, so as a next step I decided to make a working application to test out new reviews using streamlit. I have deployed the app using Streamlit: [House Price Predictor](https://share.streamlit.io/aadedolapo/house-prices-prediction-model/main/webapp.py).
-
+I have deployed the app using Streamlit: [House Price Predictor](https://share.streamlit.io/aadedolapo/house-prices-prediction-model/main/webapp.py).
 Using this model, we will learn more about House Prices based on location, bedrooms, bathrooms and toilets.
  
 Email: kingsleyadebo@gmail.com
