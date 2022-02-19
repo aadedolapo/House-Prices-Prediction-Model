@@ -7,7 +7,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/aadedolapo/House-Prices-Prediction-Model)
 
 # Demo Preview
-Here is a demo application of the House Price Predictor: ![House Price Predictor](https://share.streamlit.io/aadedolapo/house-prices-prediction-model/main/webapp.py)
+Here is a demo application of the House Price Predictor: [House Price Predictor](https://share.streamlit.io/aadedolapo/house-prices-prediction-model/main/webapp.py)
 Try it out by inputting the location where you want to check out house prices, number of bedrooms, bathrooms and toilets, and it will predict the House price.
 
 # Table of contents
@@ -20,5 +20,7 @@ Try it out by inputting the location where you want to check out house prices, n
 - [Footer](#footer)
 
 Email: kingsleyadebo@gmail.com
+
 LinkedIn: www.linkedin.com/in/ahilan-srivishnumohan/
+
 Twitter: www.twitter.com/theadedolapo
