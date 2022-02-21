@@ -12,6 +12,12 @@
 - [Technologies Used](Technologies-Used)
 - [Deployment and Application](#Deployment-and-Application)
 
+# Project Process
+✅Data collection by web scraping  features from a a real estate website
+✅ Perfomred EDA, Data cleaning, and Manipulation
+✅ Built a predictive model
+✅ Deployed my first web app using @streamlit .
+
 # Files Description
 * [Properties.csv](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/Properties.csv): webscraped data 
 * [Header.jpg](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/header.jpg): image used for README
