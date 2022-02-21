@@ -13,9 +13,12 @@
 - [Deployment and Application](#Deployment-and-Application)
 
 # Project Process
-✅Data collection by web scraping  features from a a real estate website
+✅Data collection by web scraping  features from a a real estate website 
+
 ✅ Perfomred EDA, Data cleaning, and Manipulation
-✅ Built a predictive model
+
+✅ Built a predictive model  
+
 ✅ Deployed my first web app using @streamlit .
 
 # Files Description
