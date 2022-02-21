@@ -8,6 +8,7 @@
 # Table of contents
 - [Project Title](#House-Price-Prediction-Model)
 - [Table of contents](#table-of-contents)
+- [Project Process](#Project-Process)
 - [Files Description](#Files-Description)
 - [Technologies Used](Technologies-Used)
 - [Deployment and Application](#Deployment-and-Application)
