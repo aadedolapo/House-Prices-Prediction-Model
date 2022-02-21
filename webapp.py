@@ -129,11 +129,7 @@ def predict_price(city,bedrooms,bathrooms,toilets):
 
 
 def  main():
-    st.title('House Price Prediction')
-
-
-
-    html_temp = """
+     html_temp = """
     <div style="background-color:#f63366;
         border-radius: 25px;
         padding:5px">
