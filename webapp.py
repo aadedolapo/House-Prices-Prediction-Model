@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression, Lasso
 from sklearn.ensemble import RandomForestRegressor
 
 # load dataset
-prop = pd.read_csv('./Properties.csv')
+prop = pd.read_csv('Properties.csv')
 
 # Replace city name with wrong names
 prop['city'].replace('North', 'Isheri North', inplace=True)
