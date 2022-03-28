@@ -5,9 +5,7 @@ import streamlit as st
 from sklearn.model_selection import train_test_split, cross_val_score, ShuffleSplit, GridSearchCV
 from sklearn.linear_model import LinearRegression, Lasso
 from sklearn.ensemble import RandomForestRegressor
-import os
 
-os.getcwd()
 # load dataset
 prop = pd.read_csv('./Properties.csv')
 
