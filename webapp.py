@@ -157,7 +157,7 @@ def  main():
     """
     
     st.markdown(html_temp, unsafe_allow_html=True)
-    city = st.selectbox('Choose a Location',('Ikoyi', 'Victoria Island', 'Lekki', 'Ajah', 'Isheri North',
+    city = st.selectbox('Choose a Location',('Lekki', 'Ikoyi', 'Victoria Island', 'Ajah', 'Isheri North',
        'Maryland', 'Ogudu', 'Ikeja', 'Ikorodu', 'Shomolu','Yaba',
        'Gbagada', 'Magodo', 'Ilupeju', 'Surulere', 'Ketu', 'Odofin',
        'Ojodu', 'Ojota', 'Kosofe', 'Agege', 'Isolo', 'Mushin', 'Ijede',
