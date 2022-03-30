@@ -22,7 +22,7 @@
 # Files Description
 * [Properties.csv](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/Properties.csv): webscraped data 
 * [Header.jpg](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/header.jpg): image used for README
-* [House_prices_model.pickle](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/House_price_model.pickle) : trained models saved with pickle
+* [Lagos_properties_price_model.pickle](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/Lagos_properties_price_model.pickle) : trained models saved with pickle
 * [Webscraping(properties for rent).ipynb](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/Webscraping(properties%20for%20rent).ipynb) : notebook with webscraping and data manipulation
 * [House prices prediction.ipynb](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/House%20prices%20prediction.ipynb) : notebook with feature engineering, model selection, testing and model evaluation
 * [Webapp.py](https://github.com/aadedolapo/House-Prices-Prediction-Model/blob/main/webapp.py) : contains script to run the app on streamlit cloud
