@@ -187,7 +187,7 @@ def  main():
     
     if st.button('Predict Price'):
         result = predict_price(city,bedrooms,bathrooms,toilets,serviced)
-    st.success('The price is {}'. format(result))
+    st.success('The predicted price is {}'. format(result))
     if st.button('About'):
         st.text('Adebo Dolapo')
         
